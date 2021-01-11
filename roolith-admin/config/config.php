@@ -1,6 +1,6 @@
 <?php
 return [
-    'baseUrl' => 'http://local.roolith-framework.me/',
+    'baseUrl' => 'http://local.roolith-cms.me/',
 
     'database' => null,
 

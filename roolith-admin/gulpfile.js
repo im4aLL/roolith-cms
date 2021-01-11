@@ -50,7 +50,7 @@ function buildCSS() {
 function browserSyncTask(done) {
     // https://browsersync.io/docs/options
     browserSync.init({
-        proxy: 'local.roolith-framework.me',
+        proxy: 'local.roolith-cms.me',
         port: 3000,
         open: false
     });
