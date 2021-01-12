@@ -1,11 +1,6 @@
-$font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+@import "../../node_modules/roolith-css/src/sass/function";
+@import "./settings";
+@import "../../node_modules/roolith-css/src/sass/roolith";
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: $font-family;
-  padding: 20px;
-}
+@import "./base";
+@import "./modules/header";

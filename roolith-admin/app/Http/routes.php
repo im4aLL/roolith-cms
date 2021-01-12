@@ -11,12 +11,6 @@ try {
     echo $e->getMessage();
 }
 
-$router->get('/', function() {
-    return 'Welcome to Roolith Framework!';
-});
-
-$router->get('/example', \App\Controllers\WelcomeController::class . '@index');
-$router->get('/form', \App\Controllers\WelcomeController::class . '@form')->name('welcome.form');
-$router->post('/form', \App\Controllers\WelcomeController::class . '@formSubmit');
+$router->get('/', \App\Controllers\WelcomeController::class . '@index');
 
 return $router;

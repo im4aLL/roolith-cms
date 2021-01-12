@@ -50,3 +50,16 @@ function route($name) {
 function __($name) {
     return \App\Utils\Str::getMessage($name);
 }
+
+/**
+ * Get base URL
+ *
+ * @return false|mixed|string|null
+ */
+function baseUrl() {
+    try {
+        return \Roolith\Configuration\Config::get('baseUrl');
+    } catch (\Roolith\Configuration\Exception\InvalidArgumentException $e) {
+        return './';
+    }
+}
