@@ -2,7 +2,7 @@
 return [
     'baseUrl' => 'http://local.roolith-cms.me/',
 
-    'database' => null,
+    'database' => null
 
 //    [
 //        'host' => 'localhost',
